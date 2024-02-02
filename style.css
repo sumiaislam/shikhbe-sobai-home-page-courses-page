@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: 100%;
+}
+
+
+header .wrepper{
+    width: 80%;
+    margin: 5PX auto;
+}
+
+
+header .wrepper .nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu ul li{
+    list-style-type: none;
+    margin-right: 25px;
+    display: inline-block;
+    
+
+}
+
+.menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+header .wrepper .nav .button a{
+    padding: 30px 35px;
+    font-size: 16px;
+    background-color: rgb(9, 9, 114);
+    color: white;
+    border: 1px solid rgb(8, 8, 124);
+    text-align: center;
+    
+}
+
+
+header .wrepper .nav .button a :hover{
+    background-color: rgb(125, 125, 219);
+    
+}
+
+
+
+section{
+    width: 100%;
+    
+    
+}
+
+
+section .two-box{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px auto;
+}
+
+
+section .two-box .left-box h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #1e266b;
+    line-height: 50px;
+
+}
+
+
+section .two-box .left-box p{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #1e266d;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+section .two-box .left-box button{
+    padding: 13px 30px;
+    background-color: #2e367d;
+    color: white;
+
+}
+
+
+section .two-box .left-box button a{
+    font-size: 18px;
+   
+
+}
+
+
+section .counter-box{
+    width: 70%;
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+
+    ;
+}
+
+section .counter-box .box-1{
+    padding: 20px 30px;
+    background-color: #f9799a;
+    margin-right: 5px;
+
+}
+
+section .counter-box .box-1 p{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+section .counter-box .box-2{
+    background-color: #61c4d8;
+    /* margin-right: 20px; */
+    padding: 20px 30px;
+
+
+}
+
+
+section .counter-box .box-2 p{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 200;
+
+
+}
+
+
+section .counter-box .box-3{
+    background-color: #1e266d;
+    padding: 20px 30px;
+
+}
+
+
+section .counter-box .box-3 p{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+section .project-box{
+    width: 70%;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 100px ;
+    margin: auto;
+    margin-bottom: 50px;
+
+
+}
+
+section .project-box .left-box h2{
+    font-size: 30px;
+    font-weight: 50;
+    color: #171f3c;
+}
+
+
+
+section .project-box .left-box h1{
+    font-size: 50px;
+    
+}
+
+section .project-box .left-box p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+section .project-box .left-box button{
+    padding: 10px 20px; 
+    background-color: #2e367d;
+    color: white;
+    margin-top: 20px;
+}
+
+
+section .support-box{
+    margin-top: 100px;
+    width: 70%;
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+
+}
+
+section .support-box .right-box h2{
+    font-weight: 100;
+
+}
+
+section .support-box .right-box h1{
+    font-size: 50px;
+}
+
+section .support-box .right-box p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 15px;
+
+}
+
+section .support-box .right-box button{
+    padding: 10px 20px; 
+    background-color: #2e367d;
+    color: white;
+    margin-top: 20px;
+}
+
+
+section .earn-box{
+    
+    width: 70%;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 200px auto;
+}
+
+section .earn-box .left-box h2{
+    font-weight: 100;
+}
+
+section .earn-box .left-box h1{
+    font-size: 50px;
+}
+
+section .earn-box .left-box p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+
+section .earn-box .left-box button{
+    padding: 10px 20px; 
+    background-color: #2e367d;
+    color: white;
+    margin-top: 20px;
+}
+
+section .card-box{
+    width: 70%;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 200px auto;
+}
+
+section .card-box .left-box img{
+    width: 500px;
+}
+
+
+section .card-box .right-box h2{
+    font-weight: 100;
+}
+
+section .card-box .right-box h1{
+    font-size: 50px;
+}
+
+
+section .card-box .right-box p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+section .card-box .right-box button{
+    padding: 10px 20px; 
+    background-color: #2e367d;
+    color: white;
+    margin-top: 20px;
+}
+
+
+section .life-box .center-box h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+section .life-box .bottom-box img{
+    width: 70%;
+    margin-left: 90px;
+    img
+
+}
+
+section .skill-box{
+    width: 65%;
+    margin: 20px auto;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+section .skill-box .box-1 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+section .skill-box .box-2 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+section .skill-box .box-3 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+section .skill-box .box-4 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+section .success-story-box{
+    width: 65%;
+    margin: 70px auto;
+    display: flex;
+
+}
+
+section .success-story-box .box-1 h1{
+    font-size: 45px;
+    margin-top: 40px;
+    color: #07324f;
+
+}
+
+section .success-story-box .box-1 p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+section .success-story-box .box-1 button{
+    padding: 20px;
+    background-color: #2e367d;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+section .address{
+    width: 65%;
+    margin: 50px auto;
+    background-color: rgb(69, 69, 187);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+
+section .address .left-box{
+    margin-left: 60px;
+}
+   
+
+section .address .left-box p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+section .address .right-box{
+    margin-right: 60px;
+}
+
+
+section .address .right-box p{
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+
+section .list-box{
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+section .list-box .box-1 h3{
+    color: #1e266d;
+
+
+}
+
+section .list-box .box-1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #91a3bb;
+}
+   
+
+section .list-box .box-2 h3{
+    color: #1e266d;
+
+
+}
+
+section .list-box .box-2 p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #91a3bb;
+}
+   
+
+section .list-box .box-3 h3{
+    color: #1e266d;
+
+
+}
+
+
+section .list-box .box-3 p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #91a3bb;
+}
+   
+
+section .list-box .box-4 h3{
+    color: #1e266d;
+
+
+}
+
+section .list-box .box-4 p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #91a3bb;
+}
+   
+section .img-box{
+    width: 70%;
+    margin: 10px auto;
+    
+}
